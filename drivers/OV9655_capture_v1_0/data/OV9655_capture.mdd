@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER OV9655_capture
+	OPTION supported_peripherals = (OV9655_capture);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = OV9655_capture;
+END DRIVER

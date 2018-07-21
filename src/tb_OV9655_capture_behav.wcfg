@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_OV9655_capture_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_OV9655_capture" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1000458333333fs"></ZoomStartTime>
+      <ZoomEndTime time="1001108333334fs"></ZoomEndTime>
+      <Cursor1Time time="1000725333000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="224"></NameColumnWidth>
+      <ValueColumnWidth column_width="93"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="43" />
+   <wvobject fp_name="/tb_OV9655_capture/PCLK" type="logic">
+      <obj_property name="ElementShortName">PCLK</obj_property>
+      <obj_property name="ObjectShortName">PCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/DAT" type="array">
+      <obj_property name="ElementShortName">DAT[9:0]</obj_property>
+      <obj_property name="ObjectShortName">DAT[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/HREF" type="logic">
+      <obj_property name="ElementShortName">HREF</obj_property>
+      <obj_property name="ObjectShortName">HREF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/VSYNC" type="logic">
+      <obj_property name="ElementShortName">VSYNC</obj_property>
+      <obj_property name="ObjectShortName">VSYNC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/XCLK" type="logic">
+      <obj_property name="ElementShortName">XCLK</obj_property>
+      <obj_property name="ObjectShortName">XCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/s00_axi_aclk" type="logic">
+      <obj_property name="ElementShortName">s00_axi_aclk</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/s00_axi_aresetn" type="logic">
+      <obj_property name="ElementShortName">s00_axi_aresetn</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/s00_axi_awaddr" type="array">
+      <obj_property name="ElementShortName">s00_axi_awaddr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_awaddr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/s00_axi_awprot" type="array">
+      <obj_property name="ElementShortName">s00_axi_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/s00_axi_awvalid" type="logic">
+      <obj_property name="ElementShortName">s00_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/s00_axi_awready" type="logic">
+      <obj_property name="ElementShortName">s00_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/s00_axi_wdata" type="array">
+      <obj_property name="ElementShortName">s00_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/s00_axi_wstrb" type="array">
+      <obj_property name="ElementShortName">s00_axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/s00_axi_wvalid" type="logic">
+      <obj_property name="ElementShortName">s00_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/s00_axi_wready" type="logic">
+      <obj_property name="ElementShortName">s00_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/s00_axi_bresp" type="array">
+      <obj_property name="ElementShortName">s00_axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/s00_axi_bvalid" type="logic">
+      <obj_property name="ElementShortName">s00_axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/s00_axi_bready" type="logic">
+      <obj_property name="ElementShortName">s00_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_bready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/s00_axi_araddr" type="array">
+      <obj_property name="ElementShortName">s00_axi_araddr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_araddr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/s00_axi_arprot" type="array">
+      <obj_property name="ElementShortName">s00_axi_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/s00_axi_arvalid" type="logic">
+      <obj_property name="ElementShortName">s00_axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/s00_axi_arready" type="logic">
+      <obj_property name="ElementShortName">s00_axi_arready</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/s00_axi_rdata" type="array">
+      <obj_property name="ElementShortName">s00_axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/s00_axi_rresp" type="array">
+      <obj_property name="ElementShortName">s00_axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/s00_axi_rvalid" type="logic">
+      <obj_property name="ElementShortName">s00_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/s00_axi_rready" type="logic">
+      <obj_property name="ElementShortName">s00_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/m00_axis_aclk" type="logic">
+      <obj_property name="ElementShortName">m00_axis_aclk</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/m00_axis_aresetn" type="logic">
+      <obj_property name="ElementShortName">m00_axis_aresetn</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/m00_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m00_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/m00_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m00_axis_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/m00_axis_tstrb" type="array">
+      <obj_property name="ElementShortName">m00_axis_tstrb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tstrb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/m00_axis_tuser" type="logic">
+      <obj_property name="ElementShortName">m00_axis_tuser</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tuser</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/m00_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m00_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/m00_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m00_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/dat_int_mon" type="array">
+      <obj_property name="ElementShortName">dat_int_mon[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dat_int_mon[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/reg_read_data" type="array">
+      <obj_property name="ElementShortName">reg_read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_read_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/R0" type="array">
+      <obj_property name="ElementShortName">R0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/G0" type="array">
+      <obj_property name="ElementShortName">G0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">G0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/B0" type="array">
+      <obj_property name="ElementShortName">B0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/R1" type="array">
+      <obj_property name="ElementShortName">R1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/G1" type="array">
+      <obj_property name="ElementShortName">G1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">G1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OV9655_capture/B1" type="array">
+      <obj_property name="ElementShortName">B1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group171" type="group">
+      <obj_property name="label">OV)655_if</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/resetn" type="logic">
+         <obj_property name="ElementShortName">resetn</obj_property>
+         <obj_property name="ObjectShortName">resetn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/ctrl_i" type="array">
+         <obj_property name="ElementShortName">ctrl_i[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl_i[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/ctrl_strb_i" type="logic">
+         <obj_property name="ElementShortName">ctrl_strb_i</obj_property>
+         <obj_property name="ObjectShortName">ctrl_strb_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/act_o" type="logic">
+         <obj_property name="ElementShortName">act_o</obj_property>
+         <obj_property name="ObjectShortName">act_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/format_i" type="array">
+         <obj_property name="ElementShortName">format_i[7:0]</obj_property>
+         <obj_property name="ObjectShortName">format_i[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/frames_set_i" type="array">
+         <obj_property name="ElementShortName">frames_set_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">frames_set_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/frames_cur_o" type="array">
+         <obj_property name="ElementShortName">frames_cur_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">frames_cur_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/line_size_i" type="array">
+         <obj_property name="ElementShortName">line_size_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">line_size_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/pclk_i" type="logic">
+         <obj_property name="ElementShortName">pclk_i</obj_property>
+         <obj_property name="ObjectShortName">pclk_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/dat_i" type="array">
+         <obj_property name="ElementShortName">dat_i[9:0]</obj_property>
+         <obj_property name="ObjectShortName">dat_i[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/href_i" type="logic">
+         <obj_property name="ElementShortName">href_i</obj_property>
+         <obj_property name="ObjectShortName">href_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/vsync_i" type="logic">
+         <obj_property name="ElementShortName">vsync_i</obj_property>
+         <obj_property name="ObjectShortName">vsync_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/xclk_o" type="logic">
+         <obj_property name="ElementShortName">xclk_o</obj_property>
+         <obj_property name="ObjectShortName">xclk_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/fsync_o" type="logic">
+         <obj_property name="ElementShortName">fsync_o</obj_property>
+         <obj_property name="ObjectShortName">fsync_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/sof_o" type="logic">
+         <obj_property name="ElementShortName">sof_o</obj_property>
+         <obj_property name="ObjectShortName">sof_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/dat_o" type="array">
+         <obj_property name="ElementShortName">dat_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dat_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/dat_strb_o" type="array">
+         <obj_property name="ElementShortName">dat_strb_o[3:0]</obj_property>
+         <obj_property name="ObjectShortName">dat_strb_o[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/valid_o" type="logic">
+         <obj_property name="ElementShortName">valid_o</obj_property>
+         <obj_property name="ObjectShortName">valid_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/last_o" type="logic">
+         <obj_property name="ElementShortName">last_o</obj_property>
+         <obj_property name="ObjectShortName">last_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/ready_i" type="logic">
+         <obj_property name="ElementShortName">ready_i</obj_property>
+         <obj_property name="ObjectShortName">ready_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/pclk_s1" type="logic">
+         <obj_property name="ElementShortName">pclk_s1</obj_property>
+         <obj_property name="ObjectShortName">pclk_s1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/pclk_s2" type="logic">
+         <obj_property name="ElementShortName">pclk_s2</obj_property>
+         <obj_property name="ObjectShortName">pclk_s2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/pclk_s3" type="logic">
+         <obj_property name="ElementShortName">pclk_s3</obj_property>
+         <obj_property name="ObjectShortName">pclk_s3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/dat_s1" type="array">
+         <obj_property name="ElementShortName">dat_s1[9:0]</obj_property>
+         <obj_property name="ObjectShortName">dat_s1[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/dat_s2" type="array">
+         <obj_property name="ElementShortName">dat_s2[9:0]</obj_property>
+         <obj_property name="ObjectShortName">dat_s2[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/vsync_s1" type="logic">
+         <obj_property name="ElementShortName">vsync_s1</obj_property>
+         <obj_property name="ObjectShortName">vsync_s1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/vsync_s2" type="logic">
+         <obj_property name="ElementShortName">vsync_s2</obj_property>
+         <obj_property name="ObjectShortName">vsync_s2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/href_s1" type="logic">
+         <obj_property name="ElementShortName">href_s1</obj_property>
+         <obj_property name="ObjectShortName">href_s1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/href_s2" type="logic">
+         <obj_property name="ElementShortName">href_s2</obj_property>
+         <obj_property name="ObjectShortName">href_s2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/pclk_rise" type="logic">
+         <obj_property name="ElementShortName">pclk_rise</obj_property>
+         <obj_property name="ObjectShortName">pclk_rise</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/dat_valid" type="logic">
+         <obj_property name="ElementShortName">dat_valid</obj_property>
+         <obj_property name="ObjectShortName">dat_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/xclk_cnt" type="array">
+         <obj_property name="ElementShortName">xclk_cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">xclk_cnt[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/act_ready" type="logic">
+         <obj_property name="ElementShortName">act_ready</obj_property>
+         <obj_property name="ObjectShortName">act_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/format_reg" type="array">
+         <obj_property name="ElementShortName">format_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">format_reg[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/line_size_reg" type="array">
+         <obj_property name="ElementShortName">line_size_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">line_size_reg[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/size_tmp" type="array">
+         <obj_property name="ElementShortName">size_tmp[31:0]</obj_property>
+         <obj_property name="ObjectShortName">size_tmp[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/vsync_d" type="logic">
+         <obj_property name="ElementShortName">vsync_d</obj_property>
+         <obj_property name="ObjectShortName">vsync_d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/byte_pos" type="logic">
+         <obj_property name="ElementShortName">byte_pos</obj_property>
+         <obj_property name="ObjectShortName">byte_pos</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/dat_int" type="array">
+         <obj_property name="ElementShortName">dat_int[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dat_int[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/valid_int" type="logic">
+         <obj_property name="ElementShortName">valid_int</obj_property>
+         <obj_property name="ObjectShortName">valid_int</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/last_int" type="logic">
+         <obj_property name="ElementShortName">last_int</obj_property>
+         <obj_property name="ObjectShortName">last_int</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/sof_ready" type="logic">
+         <obj_property name="ElementShortName">sof_ready</obj_property>
+         <obj_property name="ObjectShortName">sof_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/sof_int" type="logic">
+         <obj_property name="ElementShortName">sof_int</obj_property>
+         <obj_property name="ObjectShortName">sof_int</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/dat_valid_fmt0" type="logic">
+         <obj_property name="ElementShortName">dat_valid_fmt0</obj_property>
+         <obj_property name="ObjectShortName">dat_valid_fmt0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/buf_dat" type="array">
+         <obj_property name="ElementShortName">buf_dat[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">buf_dat[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/buf_last" type="array">
+         <obj_property name="ElementShortName">buf_last[0:15][0:0]</obj_property>
+         <obj_property name="ObjectShortName">buf_last[0:15][0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/buf_sof" type="array">
+         <obj_property name="ElementShortName">buf_sof[0:15][0:0]</obj_property>
+         <obj_property name="ObjectShortName">buf_sof[0:15][0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/p_wr" type="array">
+         <obj_property name="ElementShortName">p_wr[3:0]</obj_property>
+         <obj_property name="ObjectShortName">p_wr[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/p_rd" type="array">
+         <obj_property name="ElementShortName">p_rd[3:0]</obj_property>
+         <obj_property name="ObjectShortName">p_rd[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/n_buf" type="array">
+         <obj_property name="ElementShortName">n_buf[3:0]</obj_property>
+         <obj_property name="ObjectShortName">n_buf[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/dat_o_word_cnt" type="array">
+         <obj_property name="ElementShortName">dat_o_word_cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dat_o_word_cnt[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/ack" type="logic">
+         <obj_property name="ElementShortName">ack</obj_property>
+         <obj_property name="ObjectShortName">ack</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/rden" type="logic">
+         <obj_property name="ElementShortName">rden</obj_property>
+         <obj_property name="ObjectShortName">rden</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/C_XCLK_DIV" type="array">
+         <obj_property name="ElementShortName">C_XCLK_DIV[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_XCLK_DIV[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/C_DATA_WIDTH" type="array">
+         <obj_property name="ElementShortName">C_DATA_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_DATA_WIDTH[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/C_DATA_WORDS" type="array">
+         <obj_property name="ElementShortName">C_DATA_WORDS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_DATA_WORDS[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/BUF_DEPTH" type="array">
+         <obj_property name="ElementShortName">BUF_DEPTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BUF_DEPTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV9655_capture/dut/OV9655_if_inst/BUF_P_WIDTH" type="array">
+         <obj_property name="ElementShortName">BUF_P_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BUF_P_WIDTH[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
